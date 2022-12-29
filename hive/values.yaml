@@ -45,12 +45,12 @@ metastore:
   host: 10.251.188.28
   port: 9850
 
-  databaseHost: postgres-hue.ndt-data-platform.svc.cluster.local
-  databaseName: hive5mr3_db
+  databaseHost: huedb.ccma-pre.svc.cluster.local
+  databaseName: huedb
   # argument to schemaTool (not for hive.metastore.db.type in hive-site.xml)
   dbType: postgres
 
-  warehouseDir: s3a://ndtbucket/ 
+  warehouseDir: s3a://hivemr3/ 
   #/mnt/cityosfs/hive/warehouse
   #s3a://hivemr3/warehouse
 
@@ -124,10 +124,10 @@ workDir:
   # field name.persistentVolume, and PersistentVolume if necessary
   create: true
 
-  isNfs: false
+  isNfs: true
   nfs:
-    server: "1.1.1.1"
-    path: "/work/nfs/hive"
+    server: "10.210.4.174"
+    path: "/tmp/nfs/hive"
   volumeSize: 10Gi
   volumeClaimSize: 10Gi
   storageClassName: ""
@@ -145,12 +145,26 @@ prometheus:
 logLevel: INFO
 
 hostAliases:
-- ip: "10.210.4.164"
+- ip: "10.210.4.166"
   hostnames:
-  - "master-openshift-k8s-01.cpdc.irtve.rtve.int"
-- ip: "10.210.4.163"
+  - "master-openshift-k8s-01"
+
+- ip: "10.210.4.167"
   hostnames:
-  - "master-openshift-k8s-02.cpdc.irtve.rtve.int"
-- ip: "10.210.4.165"
+  - "master-openshift-k8s-02"
+
+- ip: "10.210.4.168"
   hostnames:
-  - "master-openshift-k8s-03cpdc.irtve.rtve.int"
+  - "master-openshift-k8s-03"
+
+- ip: "10.210.4.174"
+  hostnames:
+  - "worker-openshift-k8s-01"
+
+- ip: "10.210.4.175"
+  hostnames:
+  - "worker-openshift-k8s-02"
+
+- ip: "10.210.4.176"
+  hostnames:
+  - "worker-openshift-k8s-03"

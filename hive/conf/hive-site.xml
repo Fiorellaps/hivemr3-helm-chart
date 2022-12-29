@@ -815,7 +815,7 @@
   <name>javax.jdo.option.ConnectionURL</name>
   <!--<value>jdbc:mysql://${hive.database.host}/${hive.database.name}?createDatabaseIfNotExist=true&amp;useSSL=false</value>-->
   <!-- <value>jdbc:mysql://${hive.database.host}/${hive.database.name}?createDatabaseIfNotExist=true&amp;useSSL=true&amp;verifyServerCertificate=true</value> -->
-  <value>jdbc:postgresql://postgres-hue.ndt-data-platform.svc.cluster.local:5432/hive5mr3_db?createDatabaseIfNotExist=true&amp;useSSL=false</value>
+  <value>jdbc:postgresql://huedb.ccma-pre.svc.cluster.local:5432/huedb?createDatabaseIfNotExist=true&amp;useSSL=false</value>
 </property>
 
 <property>
@@ -825,7 +825,7 @@
 
 <property>
   <name>javax.jdo.option.ConnectionPassword</name>
-  <value>hue</value>
+  <value>hueadmin</value>
 </property>
 
 <property>

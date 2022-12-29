@@ -58,7 +58,7 @@
 <!-- do not set on AWS EKS -->
 <property>
   <name>fs.s3a.endpoint</name>
-  <value>http://172.30.109.102:8080</value>
+  <value>http://172.30.239.122:8080</value>
 </property>
 
 <!-- set to true when using path-style access to S3-compliant storage -->
