@@ -26,8 +26,8 @@ name:
   persistentVolumeClaim: workdir-pvc
 
 docker:
-  image: mr3project/hive3:1.5
-  containerWorkerImage: mr3project/hive3:1.5
+  image: mr3project/hive3:1.6
+  containerWorkerImage: mr3project/hive3:1.6
   # do not use a composite name like hive@RED, hive/red0@RED
   user: hive
   imagePullPolicy: IfNotPresent
@@ -49,11 +49,9 @@ metastore:
   databaseName: huedb
   # argument to schemaTool (not for hive.metastore.db.type in hive-site.xml)
   dbType: postgres
-
+  # write in s3
   warehouseDir: s3a://hivemr3/ 
-  #/mnt/cityosfs/hive/warehouse
-  #s3a://hivemr3/warehouse
-
+  
   initSchema: true
   mountLib: true
   hostLib: false
