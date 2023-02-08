@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   hive:
   - apiVersion: v2
-    created: "2023-02-08T08:30:44.946256224+01:00"
+    created: "2023-02-08T08:35:43.072665496+01:00"
+    description: Hive on MR3 for Kubernetes; Update resources
+    digest: caa2ad38a572490d5c923b583e0e7d8073551403f6c19a59f43fc313091e8bdf
+    home: https://fiorellaps.github.io/hivemr3-helm-chart
+    name: hive
+    urls:
+    - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.4.0.tgz
+    version: 4.4.0
+  - apiVersion: v2
+    created: "2023-02-08T08:35:43.070814934+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: 8b74e80fb690259a04fd63f0a54699520b221e056ea576c96ef07309d321ef73
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -11,7 +20,7 @@ entries:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.3.0.tgz
     version: 4.3.0
   - apiVersion: v2
-    created: "2023-02-08T08:30:44.944392086+01:00"
+    created: "2023-02-08T08:35:43.069197724+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: 25cb60a067ec324b7751a42d0d9bfc214d709625caa68b8d4337eebacdf50ab6
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -20,7 +29,7 @@ entries:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.2.0.tgz
     version: 4.2.0
   - apiVersion: v2
-    created: "2023-02-08T08:30:44.942681744+01:00"
+    created: "2023-02-08T08:35:43.067219615+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: cf30282592220f404fa3cb1287c8eef72d700f12ff5906f48b9a6103e5289b5b
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -29,7 +38,7 @@ entries:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
-    created: "2023-02-08T08:30:44.941068406+01:00"
+    created: "2023-02-08T08:35:43.0655789+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: 036c33d8832d0e2f1ed36390b0a55095b00d16868da52cb35ec85ec390ce00e5
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -37,4 +46,4 @@ entries:
     urls:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.0.0.tgz
     version: 4.0.0
-generated: "2023-02-08T08:30:44.939282854+01:00"
+generated: "2023-02-08T08:35:43.061985875+01:00"
