@@ -97,10 +97,10 @@ hive:
   resources:
     requests:
       cpu: 1
-      memory: 8Gi
+      memory: 16Gi
     limits:
       cpu: 1
-      memory: 8Gi
+      memory: 16Gi
   heapSize: 8192
 
 # for reading from secure HDFS
