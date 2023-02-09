@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   hive:
   - apiVersion: v2
-    created: "2023-02-09T11:14:32.954956503+01:00"
+    created: "2023-02-09T11:36:48.914480766+01:00"
+    description: Hive on MR3 for Kubernetes; Update resources
+    digest: 6d82b14d88272cd73f9582f3293f684b24a38209994f315fdfba89abe3578694
+    home: https://fiorellaps.github.io/hivemr3-helm-chart
+    name: hive
+    urls:
+    - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.11.0.tgz
+    version: 4.11.0
+  - apiVersion: v2
+    created: "2023-02-09T11:36:48.909912326+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: b7508fa1fb99c90e84cfd563e1a5440f48a2601359b9af71be46b0daf0e06cc5
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -11,7 +20,7 @@ entries:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive-4.10.0.tgz
     version: 4.10.0
   - apiVersion: v2
-    created: "2023-02-09T11:14:32.959189644+01:00"
+    created: "2023-02-09T11:36:48.919755371+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: 2181fc54ab73f4ba0f23e0bbc6587fa310ae98d4dcb8c4368bb302f3a7426d37
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -20,7 +29,7 @@ entries:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive/hive-4.9.0.tgz
     version: 4.9.0
   - apiVersion: v2
-    created: "2023-02-09T11:14:32.956628774+01:00"
+    created: "2023-02-09T11:36:48.916238073+01:00"
     description: Hive on MR3 for Kubernetes; Update resources
     digest: 95a81177104cdac6d9246a1fcbb5be884bed4715792fd2d51a5cccb01b5cc24a
     home: https://fiorellaps.github.io/hivemr3-helm-chart
@@ -31,7 +40,7 @@ entries:
   hue-helm-chart:
   - apiVersion: v2
     appVersion: "2"
-    created: "2023-02-09T11:14:32.960724044+01:00"
+    created: "2023-02-09T11:36:48.920848154+01:00"
     description: Hue is an SQL Cloud Editor for Data Warehouses and Databases.
     digest: 63581acdd911b8667963afcf37fc189a6307a9533fa0eee6d72f0a1e44a08811
     home: http://gethue.com/
@@ -52,4 +61,4 @@ entries:
     urls:
     - https://fiorellaps.github.io/hivemr3-helm-chart/hive/hue-helm-chart-2.0.0.tgz
     version: 2.0.0
-generated: "2023-02-09T11:14:32.951651936+01:00"
+generated: "2023-02-09T11:36:48.906079963+01:00"
