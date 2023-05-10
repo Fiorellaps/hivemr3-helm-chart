@@ -1,5 +1,5 @@
 apiVersion: v1
 name: hive
-version: 5.6.0
-description: Hive on MR3 for Kubernetes; Update hivemr3 version 5.5.0
+version: 5.7.0
+description: Hive on MR3 for Kubernetes; Update hivemr3 version 5.7.0
 home: https://fiorellaps.github.io/hivemr3-helm-chart
