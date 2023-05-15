@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   hive:
   - apiVersion: v1
-    created: "2023-05-15T11:30:32.899139958+02:00"
+    created: "2023-05-15T11:43:24.06469503+02:00"
     description: Hive on MR3 for Kubernetes; Update hivemr3 version 5.7.0 for PRO
-    digest: 39e5335d8f0d32bc87e944c1f29189131cecd773df3a837cbfe755ea67fa8f3e
+    digest: bb4fc1903df4ab21164c0ae7045156e4b1c4f8b21d6de38e92d1d34ecfa5125a
     home: https://fiorellaps.github.io/hivemr3-helm-chart
     name: hive
     urls:
-    - https://fiorellaps.github.io/hivemr3-helm-chart/hive-6.2.6.tgz
-    version: 6.2.6
-generated: "2023-05-15T11:30:32.896948078+02:00"
+    - https://fiorellaps.github.io/hivemr3-helm-chart/hive-6.2.7.tgz
+    version: 6.2.7
+generated: "2023-05-15T11:43:24.062288572+02:00"
